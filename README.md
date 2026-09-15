@@ -7,5 +7,3 @@
 
 ## Langages utilisés
 - HTML
-- CSS
-- JavaScript
