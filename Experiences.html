@@ -4,31 +4,96 @@
 		<meta charset="utf-8">
 		<title>Experiences - Mon portfolio</title>
 	</head>
-	<style> html, body { background-color: rgb(196, 194, 194) !important; } </style>
+	<style> html, body { background-color: rgb(196, 194, 194) !important; } /* Obligatoire pour mon navigateur, sinon il ne prend met pas de fond */
+/* Style général du menu 
+.menu {
+  list-style-type: none;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
-<body>
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  display: block;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #111;
+}
+*/
+/* Masquer le sous-menu par défaut 
+.sous-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  list-style-type: none;
+  min-width: 150px;
+  padding: 0;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+.sous-menu li {
+  width: 100%;
+}*/
+
+/* Afficher le sous-menu au survol 
+.deroulant:hover .sous-menu {
+  display: block;
+}*/
+
+	</style>
+
+<body><!-- FUTURE BARRE DE NAVIGATION
+	<nav>
+		<ul class="menu">
+			<li><a href="Accueil.html">Accueil</a></li>
+			<li class="deroulant"><a href="#">Experiences</a>
+				<ul class="sous-menu">
+					<li><a href="#">Stage en SOC analyst OnePoint(Bordeaux)</a></li>
+					<li><a href="#">Stage en Journalisme(Brive)</a></li>
+					<li><a href="#">Co Président de Radio Impro (Radio House, Brive)</a></li>
+				</ul>
+			</li>
+			<li><a href="Projets.html">Projets</a></li>
+			<li><a href="Veille.html">Veille</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		</ul>-->
 	<ul>
 		<li><a href="Accueil.html">Accueil</a></li>
 		<li><a href="Experiences.html">Experiences</a></li>
 		<li><a href="Projets.html">Projets</a></li>
 		<li><a href="Veille.html">Veille</a></li>
 		<li><a href="Contact.html">Contact</a></li>
+		<li><a href="#OnePoint">Stage en SOC analyst OnePoint(Bordeaux)</a></li>
+		<li><a href="#Journalisme">Stage en Journalisme(Brive)</a></li>
+		<li><a href="#Radio">Co Président de Radio Impro (Radio House, Brive)</a></li>
 	</ul>
+
 	<center><em><h1><strong>Evan Boisseau</strong></h1></em>
 	<p><h2>Eleve en <strong> BTS SIO </strong></h2></p>
 	<p>Au lycée Marguerite Bahuet - BRIVE 19100</p></center>
-
 	<center>
-	<table border="2" width="75%">
-		<tr>
+	<table border="2">
+		<tr width="50%">
 			<th>Date</th>
 			<th>Titre</th>
-			<th>Description</th>
+			<th>Contenu</th>
+			<th>Entreprise</th>
 		</tr>
 		
-		<tr>
-			<td>2024 <p>(2 semaines)</p></td>
-			<td>Stage en SOC analyst OnePoint(Bordeaux)</td>
+		<tr width="50%">
+			<td><center>2024 <p>(2 semaines)</p></center></td>
+			<td><center>Stage en SOC analyst OnePoint(Bordeaux)</center></td>
 			<td>
 				<ul>
 					<li>J’ai suivi le metier de SOC analyst</li>
@@ -36,17 +101,61 @@
 					<li>Découverte d'autres métiers (Développer backend, frontend, RH ...)</li>
 				</ul>
 			</td>
+			<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsT3ebrrZaNkN_hUnAONtZNuji2KB1Rz3rruIKt-PPVOf-xC5Su1GdIl8&s=10" width="100" height="100"></td>
 			</tr>
-			<tr>
-				<td>2023<p>(1 semaine)</p></td>
-				<td>Stage en Journalisme(Brive)</td>
-				<td>Pendant ce stage nous avons découvert et visiter <p>les difféerents métiers du journalisme</p> <p>(cadreur, journaliste télévision/radio, journaliste presse écrite, journaliste web ...)</p></td>
+			<tr width="50%">
+				<td><center>2023<p>(1 semaine)</p></center></td>
+				<td><center>Stage en Journalisme(Brive)</center></td>
+				<td><center>Pendant ce stage nous avons découvert et visiter <p>les difféerents métiers du journalisme</p> <p>(cadreur, journaliste télévision/radio, journaliste presse écrite, journaliste web ...)</p></center></td>
+				<td><img src=https://upload.wikimedia.org/wikipedia/commons/d/dd/France_3_2018.svg?utm_source=fr.wikipedia.org&utm_campaign=index&utm_content=original width="100" height="100"></td>
 			</tr>
-		<tr>
-			<td>2022<p>/2024</p></td>
-			<td>Co Président de Radio Impro (Radio House, Brive)</td>
-			<td><ul><li>J’ai intégrer un groupe de radio ammateurisme en 2022, dans laquelle j’ai été ingénieur son.</li></ul></td>
+		<tr width="50%">
+			<td><center>2022<p>/2024</p></center></td>
+			<td><center>Co Président de Radio Impro (Radio House, Brive)</center></td>
+			<td><center><ul><li>J’ai intégrer un groupe de radio ammateurisme en 2022, dans laquelle j’ai été ingénieur son.</li></ul></center></td>
+			<td><img src="assets/imgs/radioimpro.png" width="100" height="100"></td>
 		</tr>
 	</table>
 	</center>
+	<br></br>
+	<br></br>
+	<br></br>
+	<br></br>
+	<br></br>
+	<hr>
+	<br></br>
+	<br></br>
+	<br></br>
+	<br></br>
+	<br></br>
+	<section id="OnePoint">
+		<h1>Stage en SOC analyst OnePoint(Bordeaux)</h1>
+		<p>Pour mon stage de seconde, j’ai éffectué un stage de 2 semaines chez l’entreprise Onepoint à Bordeaux.</p>
+		<p>J’ai suivi le metier de SOC analyst</p>
+		<p>On m’as fait découvrir des plateformes d’entrainement en ligne</p>
+		<p>J’ai aussi découvert énormément de metier dans cette entreprise (Développer backend, frontend, RH ...)</p>
+
+	</section>
+	<br></br>
+	<br></br>
+	<br></br>
+	<hr>
+	<br></br>
+	<br></br>
+	<br></br>
+	<section id="Journalisme">
+		<h1>Stage en Journalisme(Brive)</h1>
+		<p>Pendant ce stage nous avons découvert et visiter les difféerents métiers du journalisme (cadreur, journaliste télévision/radio, journaliste presse écrite, journaliste web ...)</p>
+	</section>
+	<br></br>
+	<br></br>
+	<br></br>
+	<hr>
+	<br></br>
+	<br></br>
+	<br></br>
+	<section id="Radio">
+		<h1>Co Président de Radio Impro (Radio House, Brive)</h1>
+		<p>J’ai intégrer un groupe de radio ammateurisme en 2022, dans laquelle j’ai été ingénieur son.</p>
+	</section>
 </body>
