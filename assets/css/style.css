@@ -1,0 +1,27 @@
+html,
+body {
+  background-color: rgb(196, 194, 194);
+  color: #414535;
+  font-family: Times, arial;
+}
+
+h1 {
+  color: #618985;
+  
+}
+
+h2 {
+  color: #96bbbb;
+}
+
+.bord-gauche {
+  background-color: #c19875;
+}
+
+.bord-droite {
+  background-color: #f2e3bc;
+}
+
+.background-exp {
+  background-color: #f4f6f8;
+}
